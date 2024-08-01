@@ -29,7 +29,7 @@ auth_manager = SpotifyClientCredentials(client_id=SPOTIFY_CLIENT_ID, client_secr
 sp = spotipy.Spotify(auth_manager=auth_manager)
 
 class Music:
-    
+
     voice_clients = []
     queue = {'songs' : [], 'loop' : False} 
     currently_playing = None
@@ -157,7 +157,6 @@ class Song:
             self.__interaction = interaction 
             self.__duration = duration 
             
-    
     
         def get_embed(self):
             return self.create_embed()

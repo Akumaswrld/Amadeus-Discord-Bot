@@ -1,0 +1,1 @@
+This is the github repo for my discord bot which is still currently in development (started on 7/4/24) 
